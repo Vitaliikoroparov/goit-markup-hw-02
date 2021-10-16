@@ -12,6 +12,11 @@
 }
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -39,6 +44,9 @@
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
 }
 .button {
   color: var(--title-text-color);
@@ -47,10 +55,14 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  cursor: pointer;
 }
 .button.primari {
   background-color: var(--accent-color);
   color: var(--header-beckground);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
 }
 .button.secondari:hover {
   background-color: var(--accent-color);
@@ -66,6 +78,35 @@ body {
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.features .title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.team .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.projects .title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.projects .text {
+  font-size: 16px;
+  line-height: 1.88;
 }
 .footer {
   background-color: var(--footer-beckgeround);
